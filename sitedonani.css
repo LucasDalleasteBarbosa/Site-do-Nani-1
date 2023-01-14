@@ -1,9 +1,33 @@
+body{
+
+
+
+}
+
+
+
+
 .Logo {
-    width: 280px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  
+    
+}
+
+.Logo:hover{
+
+box-shadow: 5px 3px 7px rgb(2, 30, 41);
+transition: 0.5s;
+
+
 }
 
 .Logo2{
     width: 500px;
+   cursor: pointer;
+
 }
 
 .button {
@@ -15,9 +39,9 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 5px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; / Safari */
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     
   }
@@ -25,7 +49,66 @@
   .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(248, 178, 112);
+    border-radius: 10px;
   }
+
+  .cabecalho{
+    background-color: #002d40; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s;
+    font-family: arial black;
+    border-radius: 10px;
   
+  }
+
+.cabecalho:hover {
+
+  box-shadow: 5px 5px 10px rgb(236, 133, 59);
+transition: 0.5s;
+color: #f5876c;
+
+}
+
+.conteudo {
+
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly
+
+}
+
+.local {
+
+  background-color: #002d40; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s;
+    font-family: arial black;
+    border-radius: 10px;
+}
+
+.local :hover {
+
+  box-shadow: 5px 5px 10px rgb(95, 56, 27);
+  transition: 0.5s;
+  color: #f5876c;
+
+}
