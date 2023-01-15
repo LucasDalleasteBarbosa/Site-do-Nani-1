@@ -1,6 +1,7 @@
 body{
 
 
+  background-color:
 
 }
 
@@ -25,13 +26,17 @@ transition: 0.5s;
 }
 
 .Logo2{
-    width: 500px;
+    width: 300px;
    cursor: pointer;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 
 }
 
 .button {
-    background-color: #4CAF50; 
+    
     border: none;
     color: white;
     padding: 15px 32px;
@@ -105,10 +110,109 @@ color: #f5876c;
     border-radius: 10px;
 }
 
-.local :hover {
+.local:hover {
 
-  box-shadow: 5px 5px 10px rgb(95, 56, 27);
+  box-shadow: 5px 5px 10px rgb(15, 15, 15);
   transition: 0.5s;
   color: #f5876c;
 
 }
+
+
+.conclusao {
+
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s;
+    font-family: arial black;
+    border-radius: 10px;
+
+}
+
+.conclusao{
+
+  display: flex;
+  align-items:center;
+  justify-content: space-around
+
+}
+
+.a{
+
+    background-color: #002d40;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    transition-duration: 0.4s;
+    font-family: arial black;
+    border-radius: 10px;
+
+}
+
+.a:hover{
+
+  box-shadow: 5px 5px 10px rgb(15, 15, 15);
+  transition: 0.5s;
+  color: #f5876c;
+
+
+}
+
+.titulo{
+
+  background-color: #002d40;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; 
+  transition-duration: 0.4s;
+  font-family: arial black;
+  border-radius: 10px;
+  
+}
+
+.titulo:hover{
+
+  box-shadow: 5px 5px 10px rgb(15, 15, 15);
+  transition: 0.5s;
+  color: #f5876c;
+
+}
+
+.titulo2{
+
+  background-color: #002d40;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px; 
+  transition-duration: 0.4s;
+  font-family: arial black;
+  border-radius: 10px;
+  
+  
+
+
+}
+
