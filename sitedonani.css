@@ -1,7 +1,6 @@
 body{
 
 
-  background-color:
 
 }
 
@@ -26,7 +25,7 @@ transition: 0.5s;
 }
 
 .Logo2{
-    width: 300px;
+    width: 500px;
    cursor: pointer;
    display: block;
     margin-left: auto;
@@ -72,7 +71,7 @@ transition: 0.5s;
     margin: 4px 2px;
     cursor: pointer; 
     transition-duration: 0.4s;
-    font-family: arial black;
+    font-family: arial black ;
     border-radius: 10px;
   
   }
@@ -182,19 +181,11 @@ color: #f5876c;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px; 
-  transition-duration: 0.4s;
   font-family: arial black;
   border-radius: 10px;
   
 }
 
-.titulo:hover{
-
-  box-shadow: 5px 5px 10px rgb(15, 15, 15);
-  transition: 0.5s;
-  color: #f5876c;
-
-}
 
 .titulo2{
 
@@ -211,8 +202,30 @@ color: #f5876c;
   font-family: arial black;
   border-radius: 10px;
   
-  
+}
 
+input[type="date"]{
+  
+  background-color: #002d40;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px; 
+  transition-duration: 0.4s;
+  font-family: arial black;
+  border-radius: 10px;
 
 }
 
+input[type="date"]:hover{
+
+  box-shadow: 5px 5px 10px rgb(15, 15, 15);
+  transition: 0.5s;
+  color: #f5876c;
+
+
+}
